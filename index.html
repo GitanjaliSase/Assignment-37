@@ -34,7 +34,22 @@
       </div>
     </div>
   </div>
-
+  <script>
+  function filterParticipants() {
+    const searchInput = document.getElementById("searchInput").value.toLowerCase();
+    const participantsList = document.getElementById("participantsList");
+    const participants = participantsList.getElementsByClassName("participant");
+  
+    for (let i = 0; i < participants.length; i++) {
+      const participantName = participants[i].innerText.toLowerCase();
+      if (participantName.includes(searchInput)) {
+        participants[i].style.display = "";
+      } else {
+        participants[i].style.display = "none";
+      }
+    }
+  }
+</script>
   
 </body>
 </html>
