@@ -59,4 +59,12 @@ body {
     background-color: #2980b9;
   }
   
+  #searchInput {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
   
