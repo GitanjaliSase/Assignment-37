@@ -36,4 +36,27 @@ body {
     height: 100%;
   }
   
+  .sidebar {
+    flex: 1;
+    background-color: #fff;
+    padding: 15px;
+    border-left: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-btn {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .add-btn:hover {
+    background-color: #2980b9;
+  }
+  
   
